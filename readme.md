@@ -50,10 +50,7 @@ https://dreamcastlive.net/shop/
 Rationale
 ---------
 
-I have a ton of great Street Fighter III 3rd Strike replays that I want to keep
-for posterity.
-
-Sometimes I just wanna use Flycast if I'm going to a friend's. This makes it easy to move the save file for my character back and fourth. 
+Sometimes I just wanna use Flycast if I'm going to a friend's to play PSO. This makes it easy to move the save file for my character back and fourth. 
 
 
 Acknowledgments
