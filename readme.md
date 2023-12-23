@@ -1,4 +1,4 @@
-DC Drop VMU transfer utility Fork 2023
+DC Drop VMU Transfer Utility Fork 2023
 ======================================
 
 Simple HTTP server that facilitates transfer of VMU saves from a Dreamcast to Dreampi or PC, and back to the Dreamcast.
@@ -17,11 +17,13 @@ Usage
 
 Dreamcast must be connected to host computer with broadband adapter or modem
 
-* Launch droppy.py script
-* Using Dreamcast browser disc, navigate to IP address of hosting computer
-* Upload the VMU save
-* A file starting with tmp will be created, use decode.py to convert that into a VMI/VMS file that will go in the saves dir.
-* Launch dload.py to get saves back on dreamcast VMU, or others that you downloaded. Note you'll have to quit droppy.py. 
+* chmod +x *.py in dropdc and launch droppy.py script. python droppy.py
+* Using Dreamcast browser, navigate to the IP address of host i.e. http://192.168.0.2:8000
+* Upload the VMU save, a file starting with tmp will be created.
+* Use decode.py to convert that tmp file into a .VMI/.VMS files that will automatically go in the saves dir.
+* Launch dload.py to get saves back on dreamcast VMU, or others that you downloaded. Just put the .VMI & .VMS in saves.
+  * You'll have to quit out of droppy.py before launching dload.py.
+  * Make sure you're selecting the .VMI file and not the .VMS file when downloading.
 
 
 Notes
@@ -38,7 +40,11 @@ The Dreamcast can be connected to the host computer by connecting them together
 using modems.  Please check the very useful guide linked below to connect your
 Dreamcast to your host pc.
 
-http://www.dreamcast-scene.com/guides/pc-dc-server-guide-win7/
+https://www.dreamcast-talk.com/forum/app.php/page/ryochanpart1
+
+Also there is of course the wodnerful dreampi project, which is by far the easiest way to get your Dreamcast online with no BBA. 
+
+https://dreamcastlive.net/shop/
 
 
 Rationale
@@ -46,6 +52,8 @@ Rationale
 
 I have a ton of great Street Fighter III 3rd Strike replays that I want to keep
 for posterity.
+
+Sometimes I just wanna use Flycast if I'm going to a friend's. This makes it easy to move the save file for my character back and fourth. 
 
 
 Acknowledgments
@@ -64,4 +72,5 @@ Linux dreampi 4.9.35-v7+, python 2.7
 
 
 leif theden (bitcraft), 2012
+Ally Cat, 2023
 
