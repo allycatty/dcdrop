@@ -3,6 +3,7 @@ import string
 import re
 import struct
 import sys
+import os
 
 org64 = "=+/0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 vmu64 = "=y/270PlgMerTAXsZIx5+UpoDkFCLcwQJ419WEBihNGSbaYOqzfKH6ndmujt83vVR"
@@ -39,7 +40,7 @@ def decode_pw_save(data):
         for char in series:
             save_name = desc[7:14] + char
             try:
-                fh = open(save_name + ".VMS")
+                fh = open(os.path.join("./saves", save_name, save_name + ".VMS"))
             except:
                 break
             if fh.read() == real_data:
@@ -47,6 +48,14 @@ def decode_pw_save(data):
                 return
 
     else:
+        # Create a directory in the "./saves" directory using desc.strip()
+        save_dir = os.path.join("./saves", desc.strip().replace(" ", "_"))
+        try:
+            os.makedirs(save_dir)
+        except OSError as e:
+            if e.errno != errno.EEXIST:
+                raise
+
         save_name = filename[:8]
 
     checksum = ''.join(chr(ord(a)&ord(b)) for a,b in zip(filename[:4],"SEGA"))
@@ -66,12 +75,17 @@ def decode_pw_save(data):
 
     print "Saving DC save file: \"%s\": %s."  % (desc.strip(), save_name)
 
-    vmi_file = open("%s.VMI" % save_name, "w")
-    vmi_file.write(vmi_data)
+    # Save the VMI file inside the created directory
+    vmi_file_path = os.path.join(save_dir, save_name + ".VMI")
+    with open(vmi_file_path, "wb") as vmi_file:
+        vmi_file.write(vmi_data)
 
-    vms_file = open("%s.VMS" % save_name, "w")
-    vms_file.write(real_data)
+    # Save the VMS file inside the created directory
+    vms_file_path = os.path.join(save_dir, save_name + ".VMS")
+    with open(vms_file_path, "wb") as vms_file:
+        vms_file.write(real_data)
 
 if __name__ == "__main__":
     for filename in sys.argv[1:]:
-        decode_pw_save(open(filename).read())
+        decode_pw_save(open(filename, 'rb').read())
+
