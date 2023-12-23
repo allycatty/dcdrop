@@ -3,6 +3,7 @@
 
 # DCDrop
 # Copyright 2011 (c) Leif Theden <leif.theden@gmail.com>
+# Forked version 2023 
 
 
 # Droopy (http://stackp.online.fr/droopy)
@@ -144,7 +145,7 @@ errortmpl = '''
 <body>
 <div id="wrapform">
   <div class="box">
-    %(problem)s
+    %(uwu)s
     <a href="/"> %(retry)s </a>
   </div>
 </div>
@@ -169,7 +170,7 @@ ar = {"maintitle":       u"إرسال ملف",
       "received":        u"تم استقبال الملف !",
       "another":         u"إرسال ملف آخر",
       "errortitle":      u"مشكلة",
-      "problem":         u"حدثت مشكلة !",
+      "uwu":         u"حدثت مشكلة !",
       "retry":           u"إعادة المحاولة",
       "discover":        u"اكتشاف عنوان هذه الصفحة"}
 
@@ -180,7 +181,7 @@ cs = {"maintitle":       u"Poslat soubor",
       "received":        u"Soubor doručen !",
       "another":         u"Poslat další soubor",
       "errortitle":      u"Chyba",
-      "problem":         u"Stala se chyba !",
+      "uwu":         u"Stala se chyba !",
       "retry":           u"Zkusit znova.",
       "discover":        u"Zjistit adresu stránky"}
 
@@ -190,8 +191,8 @@ da = {"maintitle":       u"Send en fil",
       "successtitle":    u"Fil modtaget",
       "received":        u"Fil modtaget!",
       "another":         u"Send en fil til.",
-      "errortitle":      u"Problem",
-      "problem":         u"Det er opstået en fejl!",
+      "errortitle":      u"UwU",
+      "uwu":         u"Det er opstået en fejl!",
       "retry":           u"Forsøg igen.",
       "discover":        u"Find adressen til denne side"}
 
@@ -202,7 +203,7 @@ de = {"maintitle":       "Datei senden",
       "received":        "Datei empfangen!",
       "another":         "Weitere Datei senden",
       "errortitle":      "Fehler",
-      "problem":         "Ein Fehler ist aufgetreten!",
+      "uwu":         "Ein Fehler ist aufgetreten!",
       "retry":           "Wiederholen",
       "discover":        "Internet-Adresse dieser Seite feststellen"}
 
@@ -213,7 +214,7 @@ el = {"maintitle":       u"Στείλε ένα αρχείο",
       "received":        u"Λήψη αρχείου ολοκληρώθηκε",
       "another":         u"Στείλε άλλο ένα αρχείο",
       "errortitle":      u"Σφάλμα",
-      "problem":         u"Παρουσιάστηκε σφάλμα",
+      "uwu":         u"Παρουσιάστηκε σφάλμα",
       "retry":           u"Επανάληψη",
       "discover":        u"Βρες την διεύθυνση της σελίδας"}
 
@@ -223,9 +224,9 @@ en = {"maintitle":       "Send a file",
       "successtitle":    "File received",
       "received":        "File received !",
       "another":         "Send another file.",
-      "errortitle":      "Problem",
-      "problem":         "There has been a problem !",
-      "retry":           "Retry.",
+      "errortitle":      "UwU",
+      "uwu":         "Gottem !",
+      "retry":           "Upload more plz.",
       "discover":        "Discover the address of this page"}
 
 es = {"maintitle":       u"Enviar un archivo",
@@ -235,7 +236,7 @@ es = {"maintitle":       u"Enviar un archivo",
       "received":        u"¡Archivo recibido!",
       "another":         u"Enviar otro archivo.",
       "errortitle":      u"Error",
-      "problem":         u"¡Hubo un problema!",
+      "uwu":         u"¡Hubo un uwua!",
       "retry":           u"Reintentar",
       "discover":        u"Descubrir la dirección de esta página"}
 
@@ -246,7 +247,7 @@ fi = {"maintitle":       u"Lähetä tiedosto",
       "received":        u"Tiedosto vastaanotettu!",
       "another":         u"Lähetä toinen tiedosto.",
       "errortitle":      u"Virhe",
-      "problem":         u"Virhe lahetettäessä tiedostoa!",
+      "uwu":         u"Virhe lahetettäessä tiedostoa!",
       "retry":           u"Uudelleen.",
       "discover":        u"Näytä tämän sivun osoite"}
 
@@ -257,7 +258,7 @@ fr = {"maintitle":       u"Envoyer un fichier",
       "received":        u"Fichier reçu !",
       "another":         u"Envoyer un autre fichier.",
       "errortitle":      u"Problème",
-      "problem":         u"Il y a eu un problème !",
+      "uwu":         u"Il y a eu un problème !",
       "retry":           u"Réessayer.",
       "discover":        u"Découvrir l'adresse de cette page"}
 
@@ -268,7 +269,7 @@ gl = {"maintitle":       u"Enviar un ficheiro",
       "received":        u"Ficheiro recibido!",
       "another":         u"Enviar outro ficheiro.",
       "errortitle":      u"Erro",
-      "problem":         u"Xurdíu un problema!",
+      "uwu":         u"Xurdíu un uwua!",
       "retry":           u"Reintentar",
       "discover":        u"Descubrir o enderezo desta páxina"}
 
@@ -279,7 +280,7 @@ hu = {"maintitle":       u"Állomány küldése",
       "received":        u"Az állomány beérkezett!",
       "another":         u"További állományok küldése",
       "errortitle":      u"Hiba",
-      "problem":         u"Egy hiba lépett fel!",
+      "uwu":         u"Egy hiba lépett fel!",
       "retry":           u"Megismételni",
       "discover":        u"Az oldal Internet-címének megállapítása"}
 
@@ -290,7 +291,7 @@ id = {"maintitle":       "Kirim sebuah berkas",
       "received":        "Berkas diterima!",
       "another":         "Kirim berkas yang lain.",
       "errortitle":      "Permasalahan",
-      "problem":         "Telah ditemukan sebuah kesalahan!",
+      "uwu":         "Telah ditemukan sebuah kesalahan!",
       "retry":           "Coba kembali.",
       "discover":        "Kenali alamat IP dari halaman ini"}
 
@@ -301,7 +302,7 @@ it = {"maintitle":       u"Invia un file",
       "received":        u"File ricevuto!",
       "another":         u"Invia un altro file.",
       "errortitle":      u"Errore",
-      "problem":         u"Si è verificato un errore!",
+      "uwu":         u"Si è verificato un errore!",
       "retry":           u"Riprova.",
       "discover":        u"Scopri l’indirizzo di questa pagina"}
 
@@ -312,7 +313,7 @@ ja = {"maintitle":       u"ファイル送信",
       "received":        u"ファイルを受信しました！",
       "another":         u"他のファイルを送信する",
       "errortitle":      u"問題発生",
-      "problem":         u"問題が発生しました！",
+      "uwu":         u"問題が発生しました！",
       "retry":           u"リトライ",
       "discover":        u"このページのアドレスを確認する"}
 
@@ -323,7 +324,7 @@ ko = {"maintitle":       u"파일 보내기",
       "received":        u"파일이 받아졌습니다!",
       "another":         u"다른 파일 보내기",
       "errortitle":      u"문제가 발생했습니다",
-      "problem":         u"문제가 발생했습니다!",
+      "uwu":         u"문제가 발생했습니다!",
       "retry":           u"다시 시도",
       "discover":        u"이 페이지 주소 알아보기"}
 
@@ -334,7 +335,7 @@ nl = {"maintitle":       "Verstuur een bestand",
       "received":        "Bestand ontvangen!",
       "another":         "Verstuur nog een bestand.",
       "errortitle":      "Fout",
-      "problem":         "Er is een fout opgetreden!",
+      "uwu":         "Er is een fout opgetreden!",
       "retry":           "Nog eens.",
       "discover":        "Vind het adres van deze pagina"}
 
@@ -345,7 +346,7 @@ no = {"maintitle":       u"Send en fil",
       "received":        u"Fil mottatt !",
       "another":         u"Send en ny fil.",
       "errortitle":      u"Feil",
-      "problem":         u"Det har skjedd en feil !",
+      "uwu":         u"Det har skjedd en feil !",
       "retry":           u"Send på nytt.",
       "discover":        u"Finn addressen til denne siden"}
 
@@ -356,7 +357,7 @@ pt = {"maintitle":       u"Enviar um ficheiro",
       "received":        u"Ficheiro recebido !",
       "another":         u"Enviar outro ficheiro.",
       "errortitle":      u"Erro",
-      "problem":         u"Ocorreu um erro !",
+      "uwu":         u"Ocorreu um erro !",
       "retry":           u"Tentar novamente.",
       "discover":        u"Descobrir o endereço desta página"}
 
@@ -368,7 +369,7 @@ pt_br = {
       "received":        u"Arquivo recebido!",
       "another":         u"Enviar outro arquivo.",
       "errortitle":      u"Erro",
-      "problem":         u"Ocorreu um erro!",
+      "uwu":         u"Ocorreu um erro!",
       "retry":           u"Tentar novamente.",
       "discover":        u"Descobrir o endereço desta página"}
 
@@ -378,8 +379,8 @@ ro = {"maintitle":       u"Trimite un fişier",
       "successtitle":    u"Fişier recepţionat",
       "received":        u"Fişier recepţionat !",
       "another":         u"Trimite un alt fişier.",
-      "errortitle":      u"Problemă",
-      "problem":         u"A intervenit o problemă !",
+      "errortitle":      u"UwUă",
+      "uwu":         u"A intervenit o uwuă !",
       "retry":           u"Reîncearcă.",
       "discover":        u"Descoperă adresa acestei pagini"}
 
@@ -390,7 +391,7 @@ ru = {"maintitle":       u"Отправить файл",
       "received":        u"Файл получен !",
       "another":         u"Отправить другой файл.",
       "errortitle":      u"Ошибка",
-      "problem":         u"Произошла ошибка !",
+      "uwu":         u"Произошла ошибка !",
       "retry":           u"Повторить.",
       "discover":        u"Посмотреть адрес этой страницы"}
 
@@ -401,7 +402,7 @@ sk = {"maintitle":       u"Pošli súbor",
       "received":        u"Súbor prijatý !",
       "another":         u"Poslať ďalší súbor.",
       "errortitle":      u"Chyba",
-      "problem":         u"Vyskytla sa chyba!",
+      "uwu":         u"Vyskytla sa chyba!",
       "retry":           u"Skúsiť znova.",
       "discover":        u"Zisti adresu tejto stránky"}
 
@@ -412,7 +413,7 @@ sl = {"maintitle":       u"Pošlji datoteko",
       "received":        u"Datoteka prejeta !",
       "another":         u"Pošlji novo datoteko.",
       "errortitle":      u"Napaka",
-      "problem":         u"Prišlo je do napake !",
+      "uwu":         u"Prišlo je do napake !",
       "retry":           u"Poizkusi ponovno.",
       "discover":        u"Poišči naslov na tej strani"}
 
@@ -422,8 +423,8 @@ sr = {"maintitle":       u"Pošalji fajl",
       "successtitle":    u"Fajl primljen",
       "received":        u"Fajl primljen !",
       "another":         u"Pošalji još jedan fajl.",
-      "errortitle":      u"Problem",
-      "problem":         u"Desio se problem !",
+      "errortitle":      u"UwU",
+      "uwu":         u"Desio se uwu !",
       "retry":           u"Pokušaj ponovo.",
       "discover":        u"Otkrij adresu ove stranice"}
 
@@ -434,7 +435,7 @@ sv = {"maintitle":       u"Skicka en fil",
       "received":        u"Fil mottagen !",
       "another":         u"Skicka en fil till.",
       "errortitle":      u"Fel",
-      "problem":         u"Det har uppstått ett fel !",
+      "uwu":         u"Det har uppstått ett fel !",
       "retry":           u"Försök igen.",
       "discover":        u"Ta reda på adressen till denna sida"}
 
@@ -444,8 +445,8 @@ tr = {"maintitle":       u"Dosya gönder",
       "successtitle":    u"Gönderildi",
       "received":        u"Gönderildi",
       "another":         u"Başka bir dosya gönder.",
-      "errortitle":      u"Problem.",
-      "problem":         u"Bir problem oldu !",
+      "errortitle":      u"UwU.",
+      "uwu":         u"Bir uwu oldu !",
       "retry":           u"Yeniden dene.",
       "discover":        u"Bu sayfanın adresini bul"}
 
@@ -457,7 +458,7 @@ zh_cn = {
       "received":        u"文件已收到！",
       "another":         u"发送另一个文件。",
       "errortitle":      u"问题",
-      "problem":         u"出现问题！",
+      "uwu":         u"出现问题！",
       "retry":           u"重试。",
       "discover":        u"查看本页面的地址"}
 
