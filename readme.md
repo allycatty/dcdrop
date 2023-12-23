@@ -68,7 +68,7 @@ Python Support
 This fork was developed and tested with:
 Linux dreampi 4.9.35-v7+, python 2.7
 
+Leif Theden (bitcraft), 2012
 
-leif theden (bitcraft), 2012
-Ally Cat, 2023
+Ally Cat (allycatty), 2023
 
