@@ -9,15 +9,15 @@ Features
 
 * Transfers VMU saves from Dreamcast to computer (droppy.py)
 * Decodes VMU save into a format suitable for emulators (decode.py)
-* NEW: Transfer decoded VMU saves by download .VMI back to VMU (dload.py)
+* NEW: Transfer decoded VMU saves by downloading .VMI files back to your VMU (dload.py)
 
 
 Usage
 -----
 
-Dreamcast must be connected to host computer with broadband adapter or modem
+Dreamcast must be connected to host computer with broadband adapter or modem.
 
-* chmod +x *.py in dropdc and launch droppy.py script. python droppy.py
+* chmod +x *.py in dcdrop dir and launch droppy.py script. python droppy.py
 * Using Dreamcast browser, navigate to the IP address of host i.e. http://192.168.0.2:8000
 * Upload the VMU save, a file starting with tmp will be created.
 * Use decode.py to convert that tmp file into a .VMI/.VMS files that will automatically go in the saves dir.
