@@ -25,7 +25,7 @@ import tempfile
 import socket
 import locale
 
-from upload import upload_file
+#from upload import upload_file
 
 LOGO = '''\
  _____                               
