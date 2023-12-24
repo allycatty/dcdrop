@@ -43,7 +43,7 @@ Dreamcast to your host pc.
 
 https://www.dreamcast-talk.com/forum/app.php/page/ryochanpart1
 
-Also there is of course the wodnerful dreampi project, which is by far the easiest way to get your Dreamcast online with no BBA. 
+Also there is of course the wonderful dreampi project, which is by far the easiest way to get your Dreamcast online with no BBA. 
 
 https://dreamcastlive.net/shop/
 
