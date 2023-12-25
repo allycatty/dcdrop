@@ -33,6 +33,8 @@ I recommend using the Custom Planetweb 2.6x browser included in XPD Dreams which
 It may work with other browsers but thats the only one I tested. It also comes with a handy VMS Utility for changing the copy flag from FF to 00 on stuff like PSOv2 saves. You'll have to do that that otherwise it won't show up in the upload form. Here's the complete cdi file so you don't have to fuss around with winrar. 
 https://kittycomputer.com/XDP%20Limited%20Edition%20R4.cdi
 
+The dload.py script is a good workaround for getting .VMI/.VMS saves in to the Flycast .bin VMU files with out having the use platform dependant software like VMU Explorer. The Default User Agent browser in XDP is better for this task in emulation due the built in BBA support.  
+
 
 Modem Connection
 ----------------
